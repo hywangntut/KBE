@@ -20,7 +20,7 @@ word2vec_joint could produce the embeddings trained by Word2Vec, RCM, Threshold,
 
 Example:
 ```
-./word2vec_joint -corpus ../../../Data/Corpus/NYT/NYT.noTag.train -dimension 300 -word2vec 1 -word2vec-thread 12 -rcm 0 -pretrain 0 -output-model Model/NYT_WORD2VEC_R </br>
+./word2vec_joint -corpus ../Data/Corpus/NYT/NYT.train -dimension 300 -word2vec 1 -word2vec-thread 12 -rcm 0 -pretrain 0 -output-model Model/NYT_WORD2VEC_R </br>
 ```
 | parameter | function |
 |----------|---------|
